@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 37);
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9.6vh;
+}
+
+.box-header {
+    width: 86%;
+    height: 11.5vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.links-nav {
+    color: white;
+    transition: border-bottom 0.3s ease;
+    text-decoration: none;
+    padding-bottom: 1.8em;
+    padding-top: 1.8em;
+    margin: 5px;
+    white-space: nowrap;
+}
+
+.links-nav:hover, .links-nav:active {
+    border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
+}
+
+.poppins {
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(244, 244, 244, 1);
+}
+
+.box-login {
+    width: 20%;
+    height: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.botao-icone {
+    width: 26px;
+    height: 26px;
+    background-color: rgb(61, 59, 59);
+    border-radius: 50%;
+    color: white;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.img-icone {
+    background-size: cover;
+}
+
+.link-login {
+    text-decoration: none;
+    color: white;
+    margin-left: 8px;
+}
+
+.btn-cadastro {
+    background-color: rgba(223, 56, 0, 1);
+    height: 75%;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 2rem;
+    margin-left: 8px;
+    white-space: nowrap;
+    font-size: clamp(7px, 1vw, 14px);
+}
+
+main {
+    height: 90.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-conteudo {
+    position: absolute;
+    left: 7%;
+    top: 11.18vh;
+    color: rgba(244, 244, 244, 1);
+    font-weight: 600;
+    font-size: 6vh;
+}
+
+.box-conteudo-central {
+    height: 66.6vh;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 34.86vw;
+}
+
+.box-img-niticia {
+    width: 100%;
+    height: 63.9%;
+    border-radius: 4rem;
+}
+
+.img-noticia {
+    background-size: cover;
+    width: 34.86vw;
+    height: 39vh;
+}
+
+.box-titulo-noticia {
+    font-weight: 500;
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.box-subtitulo-noticia {
+    font-size: 0.8em;
+    color: rgba(217, 217, 217, 1);
+    margin-top: 5px;
+}
+
+.box-autor-noticia {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.referencia-noticia {
+    color: rgba(183, 183, 183, 1);
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.box-conteudo-secundario {
+    width: 46.3vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-card-secundario {
+    height: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-card-secundario {
+    width: 33%;
+    height: 100%;
+}
+
+.box-texto-noticia-secundaria {
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box-titulo-card-secundario {
+    font-weight: 500;
+    font-size: 90%;
+    color: rgba(255, 255, 255, 1);
+    height: 37%;
+    align-items: center;
+}
+
+.box-subtitulo-card-secundario {
+    font-weight: 400;
+    height: 37%;
+    color: rgba(217, 217, 217, 1);
+    font-size: 70%;
+}
+
+.box-autor-noticia-secundaria {
+    height: 19%;
+    display: flex;
+    width: 64%;
+    align-items: center;
+}
+
+.referencia-noticia-secundaria {
+    font-weight: 400;
+    margin-left: 5px;
+    color: rgba(244, 244, 244, 1);
+    font-size: 60%;
+}
+
+.tapete{
+    border-bottom: 0.1vh solid rgb(65, 65, 65);
+    padding-bottom: 1.16em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9.6vh;
+    background-color: rgba(223, 56, 0, 1);
+}
+
+.box-footer {
+    width: 86%;
+    height: 41%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-copyright{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 66%;
+}
+
+.box-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+}
+
+.botao-retorno{
+    margin-left: 20px;
+}
